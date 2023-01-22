@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  display: flex;
+  background-color: #be3144;
+  justify-content: end;
+}
+
+li {
+  padding: 20px;
+  list-style: none;
+  padding: 20px 15px;
+}
+
+a {
+  color: white;
+  font-weight: 200;
+  font-size: 1.5rem;
+  font-family: "poppins", "sans-serif";
+  text-decoration: none;
+}
+
+.hero {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  background-color: #2a2c2e;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainText {
+  align-items: center;
+  color: white;
+}
+
+.intro {
+  font-size: 3rem;
+  font-family: "poppins", "sans-serif";
+}
+
+.sub {
+  color: #be3144;
+  align-items: center;
+  font-size: 1.8rem;
+  font-style: italic;
+  font-family: "poppins", "sans-serif";
+  display: flex;
+  justify-content: center;
+}
+
+.projects {
+  color: #45567d;
+}
+
+.projectGrid {
+  display: grid;
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
+  flex-direction: row;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  object-fit: cover;
+  margin-top: 15px;
+}
+
+.cardImage {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+}
+
+.cardText {
+  background-color: rgb(39, 38, 38);
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+}
