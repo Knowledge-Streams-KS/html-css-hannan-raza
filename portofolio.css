@@ -1,60 +1,69 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "poppins", sans-serif;
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 ul {
   display: flex;
-  background-color: #be3144;
   justify-content: end;
+  background-color: #be3144;
 }
 
 li {
-  padding: 20px;
+  margin-right: 25px;
   list-style: none;
   padding: 20px 15px;
 }
 
-a {
-  color: white;
-  font-weight: 200;
-  font-size: 1.5rem;
-  font-family: "poppins", "sans-serif";
+l1:hover {
+  background-color: #ba2b3e;
+}
+.navbarA {
+  font-weight: 400;
+  font-size: 1.3rem;
+  font-family: "Poppins", sans-serif;
   text-decoration: none;
+}
+
+.containerNav {
+  position: fixed;
+  width: 100%;
 }
 
 .hero {
   display: flex;
-  height: 100vh;
   width: 100%;
+  height: 100vh;
   flex-direction: column;
   background-color: #2a2c2e;
   align-items: center;
   justify-content: center;
 }
 
-.mainText {
-  align-items: center;
-  color: white;
-}
-
 .intro {
-  font-size: 3rem;
-  font-family: "poppins", "sans-serif";
+  font-size: 3.5rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
 }
 
 .sub {
-  color: #be3144;
-  align-items: center;
+  color: #ba2b3e;
   font-size: 1.8rem;
   font-style: italic;
-  font-family: "poppins", "sans-serif";
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
   display: flex;
   justify-content: center;
 }
 
 .projects {
-  color: #45567d;
+  background-color: #45567d;
 }
 
 .projectGrid {
@@ -70,7 +79,8 @@ a {
   justify-content: center;
   flex-direction: column;
   object-fit: cover;
-  margin-top: 15px;
+  margin-top: 30px;
+  text-decoration: none;
 }
 
 .cardImage {
@@ -80,11 +90,93 @@ a {
 }
 
 .cardText {
-  background-color: rgb(39, 38, 38);
-  color: white;
+  background-color: #303841;
   padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.3rem;
+}
+.projectHeadings {
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+}
+.projectHeading {
+  color: white;
+  font-size: 2.8rem;
+  border-bottom: 2px solid white;
+}
+.button {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+.button1 {
+  padding: 15px;
+  background-color: #303841;
+  color: white;
+  border: none;
+  font-size: 1.2rem;
+}
+.button1:hover {
+  background-color: #be3144;
+  border-radius: 3px;
+}
+.code {
+  color: #303841;
+}
+.cardText:hover .code {
+  margin: 0px 5px;
+  color: #be3144;
+}
+.Contact {
+  background-color: #303841;
+}
+
+.contactName {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  margin: 20px;
+  font-size: 2rem;
+}
+
+.fa {
+  font-size: 40px;
+}
+
+.workT {
+  font-size: 3.8rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.coffee {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+.socialIcon {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 32px;
+}
+
+.socialText {
+  font-size: none;
+  margin-left: 10px;
+}
+
+#fontAwsome {
+  font-size: 40px;
 }
